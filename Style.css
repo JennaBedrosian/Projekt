@@ -1,0 +1,276 @@
+body {
+    background: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+
+     
+}
+
+.header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(184, 202, 184);
+    color: rgb(8, 8, 8);
+    top: 0;
+    text-align: center;
+    font-style: Times; 
+    font-size: 30px;
+    padding: 10px;
+   
+    
+}
+
+.headerone {
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+
+input {
+width: 500px;
+height: 30px;
+
+}
+
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.headerthree {
+    font-size: medium;
+    color: white;
+
+}
+
+
+.top-container {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    background: white ;
+}
+
+
+
+.bottom-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background: rgb(184, 202, 184);
+}
+
+.card {
+    background-color: white;
+    width: 220px;
+    height: 400px;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 15px;
+    text-align: start;
+}
+
+
+.cardimage {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.animalone {
+    background-image: url('https://ggsc.s3.amazonaws.com/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg');
+}
+
+.animaltwo {
+    background-image: url('https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg');
+}
+
+.animalthree {
+    background-image: url('https://res.cloudinary.com/klandestino-ab/image/upload/c_lfill,dpr_auto,g_faces/c_scale,dpr_2.0,w_1200/v1630046124/rdk/marsvin-djurfakta-radda-djuren-klubben_tvgpoa.jpg');
+}
+
+.animalfour {
+    background-image: url('https://www.vitakraft.se/fileadmin/vitakraft-se/Fish/VK_SE_auquarium_banner.jpg');
+
+}
+
+.card:hover {
+    background-color:  rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05)
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-style: Times;
+}
+
+#logo {
+    width: 220px;
+    height: 220px;
+    margin-top: 80px;
+    margin-right: 180px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(154, 151, 151);
+    color: rgb(15, 15, 15);
+    font-size: small;
+    padding: 0 25px;
+}
+
+.contact-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+    
+    
+}
+
+#petstore {
+    width: 340px;
+    height: 300px;
+}
+
+#form {
+    width: 350px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    border: 5px solid rgba(234,234,234,1.00);
+    border-radius: 10px;
+    background-color: rgba(225,225,225,1.00);
+    padding: 20px;
+    font-size: 14px;
+    }
+    
+    #form input {
+    width: 300px;
+    padding: 10px 5px 10px 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+    }
+
+    #form input[type=submit] {
+    width: 300px;
+    background-color: rgb(35, 57, 87);
+    color: white;
+    text-align: center;
+}
+
+.top-contact-container {
+    margin-top: 100px;
+    text-align: center;
+    background: white;
+    color: black;
+    height: 100px;
+
+}
+
+h1 {
+    color: rgb(6, 5, 5);
+}
+
+#darkmodeBtn {
+    width: 40px;
+    height: 30px;
+    font-size: 10px;
+    background: rgb(52, 50, 50);
+    color: white;
+
+}
+
+li {
+    list-style-position: inside;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    .top-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-container {
+        flex-direction: column;
+        align-items: center;
+    }   
+
+    .card {
+        background: white;
+       
+    }
+    .top-contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
